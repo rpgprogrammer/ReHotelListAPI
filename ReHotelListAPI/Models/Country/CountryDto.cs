@@ -8,6 +8,6 @@ namespace ReHotelListAPI.Models.Country
 
         public string Name { get; set; }
         public string ShortName { get; set; }
-        public virtual IList<HotelDto> Hotels { get; set; }
+        public virtual IList<BaseHotelDto> Hotels { get; set; }
     }
 }
